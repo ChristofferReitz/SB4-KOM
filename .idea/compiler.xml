@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CommonEnemy (2)" />
+        <module name="Player (1)" />
+        <module name="OSGiLaser" />
+        <module name="Collision (3)" />
+        <module name="OSGiCommonEnemy" />
+        <module name="Enemy (3)" />
+        <module name="Asteroid (1)" />
+        <module name="OSGiAsteroids" />
+        <module name="OSGiCore" />
+        <module name="Core (2)" />
+        <module name="AsteroidsNetbeansModules-branding" />
+        <module name="OSGiCommonBullet" />
+        <module name="Common (2)" />
+        <module name="AsteroidsLibGDX" />
+        <module name="CommonAsteroids (1)" />
+        <module name="OSGiCommonAsteroids" />
+        <module name="OSGiLibGDX" />
+        <module name="AgeCalculatorSpring" />
+        <module name="CommonEnemy (1)" />
+        <module name="MyCore" />
+        <module name="MyEnemy" />
+        <module name="Collision (2)" />
+        <module name="OSGiCommon" />
+        <module name="HelloWorld" />
+        <module name="DictionaryDemo" />
+        <module name="AsteroidsNetbeansModules-app" />
+        <module name="NBRuntimeExample12-app" />
+        <module name="ExtendedDictionary" />
+        <module name="Core (1)" />
+        <module name="Common (3)" />
+        <module name="Bullet (2)" />
+        <module name="Collision (1)" />
+        <module name="SilentUpdate" />
+        <module name="Enemy (1)" />
+        <module name="Asteroid (3)" />
+        <module name="common" />
+        <module name="Core (4)" />
+        <module name="CommonBullet (2)" />
+        <module name="player" />
+        <module name="Bullet (1)" />
+        <module name="OSGiEnemy" />
+        <module name="Player (2)" />
+        <module name="Enemy (2)" />
+        <module name="MyCommon" />
+        <module name="OSGiAsteroidSplitter" />
+        <module name="Asteroid (2)" />
+        <module name="GeneralDictionary" />
+        <module name="Core (3)" />
+        <module name="Common (1)" />
+        <module name="CommonBullet (1)" />
+        <module name="CommonAsteroids (2)" />
+        <module name="Player (3)" />
+        <module name="NBRuntimeExample12-branding" />
+        <module name="DictionaryServiceProvider" />
+        <module name="MyPlayer" />
+        <module name="AgeCalculatorSpringClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Asteroid" target="9" />
+      <module name="Bullet" target="9" />
+      <module name="Collision" target="9" />
+      <module name="Common" target="9" />
+      <module name="Common (4)" target="11" />
+      <module name="CommonAsteroids" target="9" />
+      <module name="CommonBullet" target="9" />
+      <module name="CommonEnemy" target="9" />
+      <module name="Core" target="9" />
+      <module name="Core (1) (dk.sdu.mmmi.cbse)" target="11" />
+      <module name="Enemy" target="9" />
+      <module name="Player" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

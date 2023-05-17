@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2687f048-340d-405e-bd44-dd5c2787714b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/GameData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/GameKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCommon/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCore/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCore/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyCore/src/main/java/dk/sdu/mmmi/cbse/managers/GameInputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyEnemy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyPlayer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyPlayer/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyPlayer/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/MyPlayer/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyGame/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\PHP\php.exe" />
+  <component name="ProjectId" id="2PvQE02qPbZVKnWnc23zvoC09H9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chris/Skrivebord/SB4-KOM/MyGame/MyPlayer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Skrivebord\SB4-KOM\MyGame\MyPlayer" />
+      <recent name="C:\Users\chris\Skrivebord\SB4-KOM\MyGame\MyCommon" />
+      <recent name="C:\Users\chris\Skrivebord\SB4-KOM\MyGame\MyCore" />
+      <recent name="C:\Users\chris\Skrivebord\SB4-KOM\MyGame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.cbse.main.Main" />
+      <module name="MyCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.sdu.mmmi.cbse.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.cbse.main.Main" />
+      <module name="Core (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.sdu.mmmi.cbse.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2687f048-340d-405e-bd44-dd5c2787714b" name="Changes" comment="" />
+      <created>1684334964367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684334964367</updated>
+      <workItem from="1684334967982" duration="2167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
