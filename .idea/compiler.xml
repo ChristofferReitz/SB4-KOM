@@ -26,6 +26,7 @@
         <module name="OSGiLibGDX" />
         <module name="AgeCalculatorSpring" />
         <module name="CommonEnemy (1)" />
+        <module name="MyBullet" />
         <module name="MyCore" />
         <module name="MyEnemy" />
         <module name="Collision (2)" />
@@ -39,6 +40,7 @@
         <module name="ExtendedDictionary" />
         <module name="Core (1)" />
         <module name="Common (3)" />
+        <module name="MyCommonBullet" />
         <module name="Bullet (2)" />
         <module name="Collision (1)" />
         <module name="SilentUpdate" />

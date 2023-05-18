@@ -48,6 +48,16 @@ public class Game
                 new GameInputProcessor(gameData)
         );
 
+        //creating player spaceship
+        IGamePluginService playerPlugin = new PlayerPlugin();
+        IEntityProcessingService playerProcess = new PlayerControlSystem();
+        entityPlugins.add(playerPlugin);
+        entityProcessors.add(playerProcess);
+        //creating asteroid
+        IGamePluginService asteroidPlugin = new AsteroidPlugin();
+        IEntityProcessingService asteroidProcess = new AsteroidControlSystem();
+        entityPlugins.add(asteroidPlugin);
+        entityProcessors.add(asteroidProcess);
         //creating enemy spaceship
         IGamePluginService enemyPlugin = new EnemyPlugin();
         IEntityProcessingService enemyProcess = new EnemyControlSystem();
@@ -56,27 +66,6 @@ public class Game
         // Lookup all Game Plugins using ServiceLoader
         for (IGamePluginService iGamePlugin : entityPlugins) {
             iGamePlugin.start(gameData, world);
-        }
-
-
-        //creating player spaceship
-        IGamePluginService playerPlugin = new PlayerPlugin();
-        IEntityProcessingService playerProcess = new PlayerControlSystem();
-        entityPlugins.add(playerPlugin);
-        entityProcessors.add(playerProcess);
-        // Lookup all Game Plugins using ServiceLoader
-        for (IGamePluginService iGamePlugin : entityPlugins) {
-            iGamePlugin.start(gameData, world);
-        }
-
-        //creating asteroid
-        IGamePluginService asteroidPlugin = new AsteroidPlugin();
-        IEntityProcessingService asteroidProcess = new AsteroidControlSystem();
-        entityPlugins.add(asteroidPlugin);
-        entityProcessors.add(asteroidProcess);
-        //Lookup all game plugins using ServiceLoader
-        for(IGamePluginService iGamePlugin : entityPlugins){
-            iGamePlugin.start(gameData,world);
         }
     }
 

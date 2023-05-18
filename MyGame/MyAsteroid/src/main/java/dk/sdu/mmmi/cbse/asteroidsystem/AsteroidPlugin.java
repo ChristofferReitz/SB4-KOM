@@ -3,46 +3,37 @@ package dk.sdu.mmmi.cbse.asteroidsystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 
 public class AsteroidPlugin implements IGamePluginService {
-    private Entity asteroid;
-
-    public AsteroidPlugin() {
-    }
-
     @Override
     public void start(GameData gameData, World world) {
-
         // Add entities to the world
-        asteroid = createEnemyShip(gameData);
+        Entity asteroid = createAsteroid(gameData);
         world.addEntity(asteroid);
-    }
-
-    private Entity createEnemyShip(GameData gameData) {
-
-        float deacceleration = 10;
-        float acceleration = 200;
-        float maxSpeed = 300;
-        float rotationSpeed = 5;
-        float x = gameData.getDisplayWidth() / 2;
-        float y = gameData.getDisplayHeight() / 2;
-        float radians = 3.1415f / 2;
-
-
-        Entity enemyShip = new Asteroid();
-        enemyShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
-        enemyShip.add(new PositionPart(x, y, radians));
-        enemyShip.setRadius(10);
-
-        return enemyShip;
     }
 
     @Override
     public void stop(GameData gameData, World world) {
         // Remove entities
-        world.removeEntity(asteroid);
+        for (Entity asteroid : world.getEntities(Asteroid.class)) {
+            world.removeEntity(asteroid);
+        }
+    }
+
+    private Entity createAsteroid(GameData gameData) {
+        Entity asteroid = new Asteroid();
+        float radians = (float) Math.random() * 2 * 3.1415f;
+        float speed = (float) Math.random() * 10f + 20f;
+
+        asteroid.setRadius(20);
+        asteroid.add(new MovingPart(0, speed, speed, 0));
+        asteroid.add(new PositionPart(30, 30, radians));
+        asteroid.add(new LifePart(3));
+
+        return asteroid;
     }
 }

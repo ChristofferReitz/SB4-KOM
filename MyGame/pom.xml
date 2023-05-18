@@ -16,6 +16,8 @@
         <module>MyPlayer</module>
         <module>MyCollision</module>
         <module>MyAsteroid</module>
+        <module>MyBullet</module>
+        <module>MyCommonBullet</module>
     </modules>
 
     <properties>
