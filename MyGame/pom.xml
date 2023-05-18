@@ -14,6 +14,8 @@
         <module>MyCore</module>
         <module>MyEnemy</module>
         <module>MyPlayer</module>
+        <module>MyCollision</module>
+        <module>MyAsteroid</module>
     </modules>
 
     <properties>

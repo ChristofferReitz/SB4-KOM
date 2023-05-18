@@ -17,6 +17,7 @@
         <module name="OSGiCore" />
         <module name="Core (2)" />
         <module name="AsteroidsNetbeansModules-branding" />
+        <module name="MyAsteroid" />
         <module name="OSGiCommonBullet" />
         <module name="Common (2)" />
         <module name="AsteroidsLibGDX" />
@@ -33,6 +34,7 @@
         <module name="DictionaryDemo" />
         <module name="AsteroidsNetbeansModules-app" />
         <module name="NBRuntimeExample12-app" />
+        <module name="MyCollision" />
         <module name="ExtendedDictionary" />
         <module name="Core (1)" />
         <module name="Common (3)" />
