@@ -25,7 +25,6 @@ public class MovingPart
     private float deceleration, acceleration;
     private float maxSpeed, rotationSpeed, startSpeed;
     private boolean left, right, up;
-
     private boolean startSpeedSet;
 
     public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
@@ -34,7 +33,7 @@ public class MovingPart
         this.maxSpeed = maxSpeed;
         this.rotationSpeed = rotationSpeed;
         this.startSpeed = startSpeed;
-        this.startSpeedSet = !(startSpeed >0);
+        this.startSpeedSet = !(startSpeed > 0);
     }
 
     public float getSpeed(){
@@ -79,6 +78,7 @@ public class MovingPart
         if(!this.startSpeedSet){
             dx = (float) (Math.cos(radians) * this.startSpeed);
             dy = (float) (Math.sin(radians) * this.startSpeed);
+            this.startSpeedSet = true;
         }
 
         // turning

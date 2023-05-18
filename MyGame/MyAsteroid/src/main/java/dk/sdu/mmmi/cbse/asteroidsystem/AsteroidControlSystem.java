@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.cbse.enemyplayersystem;
+package dk.sdu.mmmi.cbse.asteroidsystem;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
@@ -7,24 +7,23 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
-import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 import static java.lang.Math.sin;
 
-
-public class EnemyControlSystem implements IEntityProcessingService {
+public class AsteroidControlSystem implements IEntityProcessingService{
 
     private float totalTime = 0f;
     private float getRandomNumber(float min, float max){
         return (float) ((Math.random() * (max-min)) + min);
     }
 
+
     @Override
     public void process(GameData gameData, World world) {
 
-        for (Entity enemy : world.getEntities(Enemy.class)) {
+        for (Entity enemy : world.getEntities(Asteroid.class)) {
             PositionPart positionPart = enemy.getPart(PositionPart.class);
             MovingPart movingPart = enemy.getPart(MovingPart.class);
-            
+
             //Random movements for the enemy ship
             this.totalTime = (this.totalTime + gameData.getDelta()) % 100;
             float controlAmplifier = (float) (Math.random() * 2f) + 0.1f;

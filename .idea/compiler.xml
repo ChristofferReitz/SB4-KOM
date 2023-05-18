@@ -29,6 +29,7 @@
         <module name="MyCore" />
         <module name="MyEnemy" />
         <module name="Collision (2)" />
+        <module name="Asteroid (4)" />
         <module name="OSGiCommon" />
         <module name="HelloWorld" />
         <module name="DictionaryDemo" />
