@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/AsteroidTheGame/AsteroidTheGame.iml" filepath="$PROJECT_DIR$/AsteroidTheGame/AsteroidTheGame.iml" />
-=======
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
       <module fileurl="file://$PROJECT_DIR$/.idea/SB4-KOM.iml" filepath="$PROJECT_DIR$/.idea/SB4-KOM.iml" />
     </modules>
   </component>

@@ -8,15 +8,7 @@
     </parent>
     <artifactId>Common</artifactId>
     <packaging>jar</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>com.github.grooviter</groupId>
-            <artifactId>asteroid</artifactId>
-            <version>0.5.0</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-
+    
     <build>
         <plugins>
             <plugin>
