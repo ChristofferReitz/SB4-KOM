@@ -12,7 +12,6 @@
         <module name="Collision (3)" />
         <module name="OSGiCommonEnemy" />
         <module name="Enemy (3)" />
-<<<<<<< HEAD
         <module name="Common (4) (dk.sdu.student.chrei21)" />
         <module name="Asteroid (1)" />
         <module name="OSGiAsteroids" />
@@ -20,27 +19,15 @@
         <module name="Bullet (3) (dk.sdu.student.chrei21)" />
         <module name="Core (2)" />
         <module name="AsteroidsNetbeansModules-branding" />
-=======
-        <module name="Asteroid (1)" />
-        <module name="OSGiAsteroids" />
-        <module name="OSGiCore" />
-        <module name="Core (2)" />
-        <module name="AsteroidsNetbeansModules-branding" />
-        <module name="MyAsteroid" />
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
         <module name="OSGiCommonBullet" />
         <module name="Common (2)" />
         <module name="AsteroidsLibGDX" />
         <module name="CommonAsteroids (1)" />
-<<<<<<< HEAD
         <module name="Asteroid (4) (dk.sdu.student.chrei21)" />
-=======
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
         <module name="OSGiCommonAsteroids" />
         <module name="OSGiLibGDX" />
         <module name="AgeCalculatorSpring" />
         <module name="CommonEnemy (1)" />
-<<<<<<< HEAD
         <module name="Collision (2)" />
         <module name="OSGiCommon" />
         <module name="HelloWorld" />
@@ -53,23 +40,6 @@
         <module name="ExtendedDictionary" />
         <module name="Core (1)" />
         <module name="Common (3)" />
-=======
-        <module name="MyBullet" />
-        <module name="MyCore" />
-        <module name="MyEnemy" />
-        <module name="Collision (2)" />
-        <module name="Asteroid (4)" />
-        <module name="OSGiCommon" />
-        <module name="HelloWorld" />
-        <module name="DictionaryDemo" />
-        <module name="AsteroidsNetbeansModules-app" />
-        <module name="NBRuntimeExample12-app" />
-        <module name="MyCollision" />
-        <module name="ExtendedDictionary" />
-        <module name="Core (1)" />
-        <module name="Common (3)" />
-        <module name="MyCommonBullet" />
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
         <module name="Bullet (2)" />
         <module name="Collision (1)" />
         <module name="SilentUpdate" />
@@ -83,15 +53,9 @@
         <module name="OSGiEnemy" />
         <module name="Player (2)" />
         <module name="Enemy (2)" />
-<<<<<<< HEAD
         <module name="OSGiAsteroidSplitter" />
         <module name="Asteroid (2)" />
         <module name="Core (5) (dk.sdu.student.chrei21)" />
-=======
-        <module name="MyCommon" />
-        <module name="OSGiAsteroidSplitter" />
-        <module name="Asteroid (2)" />
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
         <module name="GeneralDictionary" />
         <module name="Core (3)" />
         <module name="Common (1)" />
@@ -100,43 +64,29 @@
         <module name="Player (3)" />
         <module name="NBRuntimeExample12-branding" />
         <module name="DictionaryServiceProvider" />
-<<<<<<< HEAD
-=======
-        <module name="MyPlayer" />
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
         <module name="AgeCalculatorSpringClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Asteroid" target="9" />
-<<<<<<< HEAD
       <module name="AsteroidsTheGame" target="11" />
       <module name="AsteroidstTheGame" target="11" />
-=======
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
       <module name="Bullet" target="9" />
       <module name="Collision" target="9" />
       <module name="Common" target="9" />
       <module name="Common (4)" target="11" />
-<<<<<<< HEAD
       <module name="Common (4) (org.example)" target="20" />
-=======
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
       <module name="CommonAsteroids" target="9" />
       <module name="CommonBullet" target="9" />
       <module name="CommonEnemy" target="9" />
       <module name="Core" target="9" />
       <module name="Core (1) (dk.sdu.mmmi.cbse)" target="11" />
-<<<<<<< HEAD
       <module name="Core (5)" target="11" />
       <module name="DefaultPlayer" target="11" />
       <module name="Enemy" target="9" />
       <module name="MyEnemy" target="11" />
       <module name="MyGame" target="20" />
       <module name="MyPlayer" target="11" />
-=======
-      <module name="Enemy" target="9" />
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
       <module name="Player" target="9" />
     </bytecodeTargetLevel>
   </component>

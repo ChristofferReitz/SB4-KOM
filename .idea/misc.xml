@@ -14,7 +14,6 @@
         <option value="$PROJECT_DIR$/AsteroidsEntityFramework/pom.xml" />
         <option value="$PROJECT_DIR$/AsteroidsNetbeansModules/pom.xml" />
         <option value="$PROJECT_DIR$/MyGame/pom.xml" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/AsteroidTheGame/pom.xml" />
       </list>
     </option>
@@ -23,11 +22,6 @@
         <option value="$PROJECT_DIR$/MyGame/pom.xml" />
       </set>
     </option>
-=======
-        <option value="$PROJECT_DIR$/MyGame/MyCommon/pom.xml" />
-      </list>
-    </option>
->>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
