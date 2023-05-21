@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CommonEnemy (2)" />
+        <module name="Player (1)" />
+        <module name="OSGiLaser" />
+        <module name="Collision (3)" />
+        <module name="OSGiCommonEnemy" />
+        <module name="Enemy (3)" />
+        <module name="Common (4) (dk.sdu.student.chrei21)" />
+        <module name="Asteroid (1)" />
+        <module name="OSGiAsteroids" />
+        <module name="OSGiCore" />
+        <module name="Bullet (3) (dk.sdu.student.chrei21)" />
+        <module name="Core (2)" />
+        <module name="AsteroidsNetbeansModules-branding" />
+        <module name="OSGiCommonBullet" />
+        <module name="Common (2)" />
+        <module name="AsteroidsLibGDX" />
+        <module name="CommonAsteroids (1)" />
+        <module name="Asteroid (4) (dk.sdu.student.chrei21)" />
+        <module name="OSGiCommonAsteroids" />
+        <module name="OSGiLibGDX" />
+        <module name="AgeCalculatorSpring" />
+        <module name="CommonEnemy (1)" />
+        <module name="Collision (2)" />
+        <module name="OSGiCommon" />
+        <module name="HelloWorld" />
+        <module name="DictionaryDemo" />
+        <module name="Enemy (4) (dk.sdu.student.chrei21)" />
+        <module name="AsteroidsNetbeansModules-app" />
+        <module name="NBRuntimeExample12-app" />
+        <module name="Player (4) (dk.sdu.student.chrei21)" />
+        <module name="Collision (4) (dk.sdu.student.chrei21)" />
+        <module name="ExtendedDictionary" />
+        <module name="Core (1)" />
+        <module name="Common (3)" />
+        <module name="Bullet (2)" />
+        <module name="Collision (1)" />
+        <module name="SilentUpdate" />
+        <module name="Enemy (1)" />
+        <module name="Asteroid (3)" />
+        <module name="common" />
+        <module name="Core (4)" />
+        <module name="CommonBullet (2)" />
+        <module name="player" />
+        <module name="Bullet (1)" />
+        <module name="OSGiEnemy" />
+        <module name="Player (2)" />
+        <module name="Enemy (2)" />
+        <module name="OSGiAsteroidSplitter" />
+        <module name="Asteroid (2)" />
+        <module name="Core (5) (dk.sdu.student.chrei21)" />
+        <module name="GeneralDictionary" />
+        <module name="Core (3)" />
+        <module name="Common (1)" />
+        <module name="CommonBullet (1)" />
+        <module name="CommonAsteroids (2)" />
+        <module name="Player (3)" />
+        <module name="NBRuntimeExample12-branding" />
+        <module name="DictionaryServiceProvider" />
+        <module name="AgeCalculatorSpringClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Asteroid" target="9" />
+      <module name="AsteroidsTheGame" target="11" />
+      <module name="AsteroidstTheGame" target="11" />
+      <module name="Bullet" target="9" />
+      <module name="Collision" target="9" />
+      <module name="Common" target="9" />
+      <module name="Common (4)" target="11" />
+      <module name="Common (4) (org.example)" target="20" />
+      <module name="CommonAsteroids" target="9" />
+      <module name="CommonBullet" target="9" />
+      <module name="CommonEnemy" target="9" />
+      <module name="Core" target="9" />
+      <module name="Core (1) (dk.sdu.mmmi.cbse)" target="11" />
+      <module name="Core (5)" target="11" />
+      <module name="DefaultPlayer" target="11" />
+      <module name="Enemy" target="9" />
+      <module name="MyEnemy" target="11" />
+      <module name="MyGame" target="20" />
+      <module name="MyPlayer" target="11" />
+      <module name="Player" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
