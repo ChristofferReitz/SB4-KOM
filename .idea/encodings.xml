@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/Asteroid/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/Asteroid/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/Bullet/src/main/java" charset="UTF-8" />
@@ -17,6 +18,10 @@
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/Player/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidTheGame/src/main/resources" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsEntityFramework/Asteroid/src/main/resources" charset="UTF-8" />
+>>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
     <file url="file://$PROJECT_DIR$/AsteroidsEntityFramework/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidsEntityFramework/Common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidsEntityFramework/Core/src/main/java" charset="UTF-8" />
@@ -91,10 +96,25 @@
     <file url="file://$PROJECT_DIR$/AsteroidsServiceLoader/Player/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidsServiceLoader/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsteroidsServiceLoader/src/main/resources" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/MyGame/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGame/Common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGame/Core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGame/Core/src/main/resources" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/MyGame/MyAsteroid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyAsteroid/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyBullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCollision/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCollision/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCommon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCommon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCommonBullet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCommonBullet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyGame/MyCore/src/main/resources" charset="UTF-8" />
+>>>>>>> 645c14c4c4cd4019861080bf6bf785e81c320905
     <file url="file://$PROJECT_DIR$/MyGame/MyEnemy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGame/MyEnemy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyGame/MyPlayer/src/main/java" charset="UTF-8" />
